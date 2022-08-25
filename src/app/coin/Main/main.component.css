@@ -1,0 +1,52 @@
+table {
+  width: 100%;
+  margin: auto;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: medium;
+
+}
+.mat-header-cell{
+background-color:#fae98c ;
+color: rgb(0, 0, 0);
+font-size: medium;
+font-weight: bold;
+font-family: sans-serif;
+}
+
+.alignment {
+  text-align: right;
+  max-width: 120px;
+}
+
+.leftAlignment {
+  text-align: left;
+  max-width: 70px;
+
+}
+
+.mat-row:hover{
+
+    background-color: #f8f8f8;
+
+}
+
+.infoIcon .hoverInfo {
+  visibility: hidden;
+  width: 20%;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 15px 5px;
+  font-size: small;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.infoIcon:hover .hoverInfo {
+  visibility: visible;
+}
+

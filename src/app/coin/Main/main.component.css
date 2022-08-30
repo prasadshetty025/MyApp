@@ -41,7 +41,7 @@ font-family: sans-serif;
   padding: 15px 5px;
   font-size: small;
 
-  /* Position the tooltip */
+
   position: absolute;
   z-index: 1;
 }

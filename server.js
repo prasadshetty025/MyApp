@@ -1,4 +1,4 @@
-const app = require("./backend/app");
+const app = require("./backend/App");
 const debug = require("debug")("node-angular");
 const http = require("http");
 
@@ -66,7 +66,7 @@ const io = new Server(server,{
 app.set('io',io);
 
 io.on('connection', (socket) => {
-  console.log("a user connected");
+  console.log("user connected");
 
 
   socket.on('disconnect',()=>{

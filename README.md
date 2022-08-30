@@ -1,5 +1,11 @@
+# Run using Docker compose
+
+Run `docker compose up` command to start and run the entire app on local host. The frontend will be hosted on `http://localhost:4200/` and the backend will be hosted on `http://localhost:3000/`.
+When the command exits, all containers are stopped. 
+
+
 # MyApp
-# Checking git
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
 ## Development server
